@@ -1,0 +1,107 @@
+html{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0; 
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+}
+.contain{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 20%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 6px 6px 2px black;
+}
+.img{
+    width: 90%;
+    padding-top: 0.8rem;
+    margin: auto;
+}
+.img img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.section{
+    width: 90%;
+    margin: auto;
+}
+.section-p{
+    font-size: 0.65rem;
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+}
+.section-p1{
+    font-size: 0.7rem;
+    line-height: 1rem;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+.alone{
+    background-color: hsl(47, 88%, 63%);
+    width: 3rem;
+    margin-top: 0.5rem;
+    margin-left: 1.3rem;
+    border-radius: 0.2rem;
+}
+.alone p{
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    font-size: 0.55rem;
+    margin: 0;
+    text-align: center;
+    padding: 0.25rem;
+}
+h1{
+    font-weight: 800;
+    font-size: 1rem;
+}
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.low{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.low img{
+    width: 10%;
+    padding-left: 1.3rem;
+    padding-bottom: 0.8rem;
+}
+.span{
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    font-size: 0.6rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.6rem;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+     text-decoration: none;
+}
+@media (max-width:375px){
+    .main{
+        width: 75%;
+    }
+    .alone{
+        margin-left: 0.9rem;
+    }
+    .low img{
+        padding-left: 0.9rem;
+    }
+}
